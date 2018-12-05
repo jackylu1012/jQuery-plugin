@@ -68,18 +68,23 @@ section .content{
     transform: translate(-50%, -50%);
 }
 
+.bg{
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 .bg-1{
-    background: #3ddd37;
+    background: url('https://picsum.photos/1920/1080?image=0');
 }
 
 .bg-2{
-    background: #d65151;
+    background: url('https://picsum.photos/1920/1080?image=1083');
 }
 
 .bg-3{
-    background: #3946c4;
+    background: url('https://picsum.photos/1920/1080?image=1084');
 }
 
 .bg-4{
-    background: #35c4ce;
+    background: url('https://picsum.photos/1920/1080?image=1080');
 }
