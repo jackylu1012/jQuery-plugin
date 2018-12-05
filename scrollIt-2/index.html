@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vTicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./lib/scrollIt.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <header class="nav-container">
+        <nav>
+            <ul>
+                <li><a class="active" data-scroll-nav="0"></a></li>
+                <li><a class="" data-scroll-nav="1"></a></li>
+                <li><a class="" data-scroll-nav="2"></a></li>
+                <li><a class="" data-scroll-nav="3"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <section class="bg-1" data-scroll-index="0">
+            <div class="content">
+                <h1>ScrollIt.js</h1>
+            </div>
+        </section>
+        <section class="bg-2" data-scroll-index="1">
+            <div class="content">
+                <h1>about</h1>
+            </div>
+        </section>
+        <section class="bg-3" data-scroll-index="2">
+            <div class="content">
+                <h1>word</h1>
+            </div>
+        </section>
+        <section class="bg-4" data-scroll-index="3">
+            <div class="content">
+                <h1>contact</h1>
+                <a href="" data-scroll-nav="0">返回頂部</a>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <a href="http://www.bytemuse.com/scrollIt.js/" target="_blank">scrollIt Plug-in link</a>
+    </footer>
+</body>
+</html>
