@@ -5,11 +5,15 @@ $(function(){
 
     function play(){
         $('.content').vTicker('init',{
-            speed: 400,
-            pause: 1000,
-            mousePause: false,
+            // 每則文字滾動速度
+            speed: 1000,
+            // pause: 1000,
+            // 滑鼠滑入時停止
+            mousePause: true,
+            // 每次顯示文字數量
             showItems: 1,
-            padding: 30
+            // 文字的內距
+            padding: 0
         });
     }
 
